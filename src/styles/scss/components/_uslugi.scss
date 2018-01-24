@@ -1,0 +1,51 @@
+.uslugi{
+  &-video{
+    max-width: 1140px;
+    width: 100%;
+    max-height: 600px;
+    background: #2b2928;
+    background-size: cover;
+  }
+  &-list{
+    & li{
+      position: relative;
+      padding: 30px 0 30px;
+      border-bottom: 1px solid #dadada;
+      &:last-child{
+        border-bottom: none;
+      }
+    }
+    &-title{
+      font-size: 24px;
+      line-height: 25px;
+      color:#2b2928;
+      margin-bottom: 18px;
+    }
+    &-text{
+      color:#6e6e6e;
+      margin-bottom: 8px;
+    }
+    &-number{
+      position: absolute;
+      width: 102px;
+      height: 142px;
+      border:1px solid #00bcac;
+      border-radius: 3px;
+      & span{
+        display: block;
+        font:140px "ProximaNova Thin";
+        color:#2b2928;
+        line-height: 140px;
+        padding-left: 50%;
+        transform: translateX(-35%);
+      }
+    }
+    &-resulted{
+      color:#313131;
+    }
+    &-content{
+      padding-left: 132px;
+      margin-bottom: 20px;
+    }
+  }
+}

@@ -1,0 +1,262 @@
+@media (max-width:900px){
+  .comments-video-play{
+    width: 60px;
+    height: 60px;
+    & img{
+      padding-top: 8px;
+      padding-left: 4px;
+    }
+  }
+  .comments-photo-quote{
+    width: 40px;
+    height:40px;
+  }
+  .navbar{
+    padding: 20px 0;
+    &-toggler{
+
+    }
+  }
+  .collapse .navbar-collapse{
+    justify-content: flex-end;
+  }
+  .navbar-light .navbar-toggler{
+    &-icon{
+      position: relative;
+      background-image: none;
+      &::before{
+        position: absolute;
+        content: '\f0c9';
+        font-family: FontAwesome;
+        font-size: 30px;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        display: block;
+        color:#00bcac;
+      }
+      &-cr{
+        position: absolute;
+        content: '\f00d';
+        font-family: FontAwesome;
+        font-size: 30px;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        display: block;
+        color:#00bcac;
+      }
+    }
+  }
+}
+//md
+
+@media (max-width: 768px){
+  .section-welcome{
+    &-about{
+      background: url("../../img/about/dmitriy-norka.png") no-repeat right bottom, linear-gradient(to right, #2d2c2b, #2c2a29);
+      background-size: 75% auto, cover;
+    }
+  }
+  .main-statistic {
+    padding-top: 47px;
+    background: url("../../img/index/norka.png") no-repeat 70% bottom, #2b2928;
+    background-size: 55% auto, cover;
+  }
+  .sidebar-text-2{
+    font: 24px/30px "ProximaNova Light";
+  }
+}
+
+//sm
+
+@media (max-width: 576px){
+  .main-statistic {
+    padding-top: 47px;
+    background: url("../../img/index/norka.png") no-repeat 70% bottom, #2b2928;
+    background-size: 80% auto, cover;
+  }
+  .main-statistic-title{
+    border-right: 1px solid #575555;
+  }
+  .main-welcome-title{
+    font: 48px/56px "ProximaNova Thin";
+  }
+  .main-welcome-text {
+    color: #fff;
+    font: 22px/28px "ProximaNova Thin";
+    margin-bottom: 32px;
+  }
+  .main-col-1{
+    padding-right: 15px;
+  }
+  .main-play{
+    margin-bottom: 60px;
+  }
+  .main-welcome{
+    padding: 40px 0;
+  }
+  .header-top-nac{
+    & li{
+      justify-content: center;
+      & ul{
+        justify-content: center;
+      }
+    }
+  }
+  .blog-page-nav{
+    justify-content: center;
+  }
+  .section-welcome-title-news{
+    font: 40px/55px "ProximaNova Light";
+    text-align: center;
+  }
+  .section-welcome-blog2{
+    padding: 40px 0;
+  }
+  .section-welcome-books{
+    padding: 40px 0;
+  }
+  .section-welcome-title{
+    text-align: center;
+    font: 50px/67px "ProximaNova Thin";
+  }
+  .books-title{
+    font-size: 30px;
+  }
+  .books-title-after{
+    font-size: 20px;
+  }
+  .section-welcome-title-events{
+    font: 42px/48px "ProximaNova Thin";
+    text-align: center;
+  }
+  .section-welcome-title-about{
+    font: 52px "ProximaNova Thin";
+    align-items: center;
+  }
+  .section-welcome-title-blog{
+    text-align: center;
+    font-size:60px;
+  }
+  .section-welcome-title-otzivi{
+    font: 50px/62px "ProximaNova Thin";
+    text-align: center;
+  }
+  .section-welcome-otzivi{
+    padding: 40px 0;
+  }
+  .section-welcome-title-press{
+    font: 45px/55px "ProximaNova Thin";
+    text-align: center;
+  }
+  .services-wrap{
+    border: none;
+  }
+  .services-block{
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 0;
+  }
+  .services-title{
+    text-align: center;
+  }
+  .services-text{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .btn-services{
+    margin-left: 15px;
+  }
+  .btn-add-comment-margin{
+    margin-right: 0;
+  }
+  .section-title{
+    font: 30px/58px "ProximaNova Light";
+  }
+  .press-center-contact-tel{
+    font-size: 28px;
+  }
+  .press-center-contact{
+    text-align: center;
+  }
+  .press-center-social{
+    justify-content: center;
+  }
+  .section-welcome-press-center{
+    padding: 65px 0;
+  }
+  .section-welcome-title-schedule{
+    font: 50px/62px "ProximaNova Thin";
+    text-align: center;
+  }
+  .section-welcome-schedule{
+    padding: 45px 0;
+  }
+  .schedule-nb{
+    justify-content: center;
+    display: flex;
+  }
+  .schedule-title{
+    text-align: center;
+  }
+  .schedule-text{
+    margin-left: 7px;
+  }
+  .services-title{
+    font-size: 24px;
+  }
+  .section-welcome-services{
+    padding: 45px 0;
+  }
+  .section-welcome{
+    &-about{
+      background: url("../../img/about/dmitriy-norka.png") no-repeat right bottom, linear-gradient(to right, #2d2c2b, #2c2a29);
+      background-size: 100% auto, cover;
+    }
+  }
+  .thankyou-title{
+    font: 45px/52px "ProximaNova Thin";
+    &::before{
+      display: none;
+    }
+  }
+  .clients{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .thankyou {
+    padding: 50px 0 0 0;
+    background: url("../../img/thankyou/norka.png") no-repeat 20% bottom, url("../../img/thankyou/section-bg.png") no-repeat;
+    height: auto;
+    background-size: 100% auto, cover;
+  }
+  .comments-name{
+    text-align: center;
+  }
+  .section-welcome-news{
+    padding: 40px 0;
+  }
+  .section-welcome-training{
+    padding: 40px 0;
+  }
+  .training-list-title{
+    text-align: center;
+  }
+  .training-other{
+    border-bottom: none;
+    border-right: none;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+  }
+  .section-welcome-uslugi{
+    padding: 40px 0;
+  }
+  .section-welcome-title-md{
+    font: 35px/45px "ProximaNova Thin";
+  }
+  .section-title-uslugi{
+    font: 28px/36px "ProximaNova Light";
+    text-align: left;
+  }
+}

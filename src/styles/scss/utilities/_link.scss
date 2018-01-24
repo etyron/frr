@@ -1,0 +1,17 @@
+.navbar-light .navbar-nav .nav-link{
+  color:#fff;
+  padding: 0;
+  font-size: 14px;
+  line-height: 5;
+  text-transform: uppercase;
+  & .active{
+    color:#fff;
+  }
+  &:hover{
+    color:#fff;
+  }
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+  color:#fff;
+}

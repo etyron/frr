@@ -1,0 +1,92 @@
+.about{
+  &-welcome{
+    min-height: 641px;
+    position: relative;
+    &-img{
+      position: absolute;
+      display: block;
+      max-width: 550px;
+      width: 100%;
+      background-size: cover;
+      right: 15px;
+    }
+  }
+  &-section{
+    &-number{
+      background: url("../../img/about/number-section-bg.png") no-repeat;
+      background-size: cover;
+      padding: 28px 0 70px;
+    }
+  }
+  &-achievements{
+    &-list{
+      & li{
+        margin-bottom: 30px;
+      }
+    }
+    &-wrap{
+      box-sizing: border-box;
+      background-size: cover;
+      height: 220px;
+      border-radius: 3px;
+      position: relative;
+      border-bottom: 3px solid #fff;
+      margin-bottom: 32px;
+      & img{
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
+      &:hover{
+        border-bottom: 3px solid #06beae;
+      }
+    }
+    &-title{
+      font:16px/24px "ProximaNova Regular";
+      color:#2b2928;
+    }
+  }
+}
+
+.video-big{
+  border-radius: 4px;
+  position: relative;
+  background: #000;
+  opacity: .9;
+  & button{
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border-radius: 50%;
+    border: none;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    &::before{
+      content:'\f04b';
+      display: block;
+      font-family: FontAwesome;
+      transform:translateX(5%);
+      color:#00bcac;
+      font-size: 39px;
+    }
+  }
+  & img{
+    background-size: cover;
+  }
+}
+
+@media (max-width: 800px){
+  .video-big{
+    & button{
+      width:60px;
+      height: 60px;
+      &::before{
+        font-size: 24px;
+      }
+    }
+  }
+}

@@ -1,0 +1,165 @@
+.training{
+  &-list{
+    margin-bottom: 24px;
+    & li{
+      padding-bottom: 36px;
+      border-bottom:1px solid #d7d7d7;
+      margin-bottom: 25px;
+      &:last-child{
+        border-bottom: none;
+      }
+    }
+    &-title{
+      font-size:25px;
+      line-height: 36px;
+      color: #2b2928;
+      margin-bottom: 20px;
+    }
+    &-text{
+      color:#6e6e6e;
+    }
+  }
+  &-manager{
+    &-list{
+      border-bottom: 1px solid #eeee;
+      & li{
+        margin-bottom: 60px;
+        & h4{
+          font:20px/24px "ProximaNova Regular";
+          color:#2b2928;
+          & span{
+            font-size: 1px;
+          }
+        }
+      }
+    }
+    &-wrap{
+      position: relative;
+      width: 213px;
+      height: 213px;
+      background:#f3f3f3;
+      border-radius: 50%;
+      border:1px solid #eee;
+      margin-bottom: 35px;
+      & div{
+        transform: translate(7%,7%);
+        position: relative;
+        width:185px;
+        height:185px;
+        background-size: cover;
+        background: #fff;
+        border-radius: 50%;
+        border:1px solid #eeeeee;
+        & .img-3{
+          margin-top: 43%;
+        }
+        & .img-4{
+          margin-left: -9%;
+        }
+      }
+      & img{
+        position: absolute;
+        margin:50% 50% 0 0;
+        transform:translate(50%,-50%);
+      }
+    }
+  }
+  &-prog{
+    &-title{
+      font-size: 28px;
+      color:#2b2928;
+      margin-bottom: 36px;
+    }
+    &-list{
+      & li{
+        overflow: hidden;
+        position: relative;
+        color:#6e6e6e;
+        padding: 15px 15px 15px 68px;
+        background: #fff;
+        border-radius: 2px;
+        margin-bottom: 5px;
+        &:last-child{
+          margin-bottom: 0;
+        }
+        & div{
+          position: absolute;
+          width: 52px;
+          height: 55px;
+          top:0;
+          left:0;
+          background: #00bcac;
+          & span{
+            font-size: 26px;
+            color:#fff;
+            padding-left: 50%;
+            padding-top: 50%;
+            transform: translate(-30%, -20%);
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+  &-utilities{
+    position: relative;
+    &::before{
+      position: absolute;
+      content:'';
+      width:12px;
+      height: 12px;
+      background: url("../../img/training/before-li.png") no-repeat;
+      left: -15px;
+      top:0;
+      transform: translateY(50%);
+    }
+    &-list{
+      & > li {
+        padding-left: 32px;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  &-other{
+    padding: 25px 0;
+    border-right: 21px solid #f8f8f8;
+    border-bottom: 21px solid #f8f8f8;
+    border-bottom-right-radius: 28px;
+    background: #00bcac;
+    & img{
+      max-width: 65px;
+      width:100%;
+      margin-left: 50%;
+      transform: translateX(-50%);
+    }
+    &-list{
+      & li{
+        margin-bottom: 35px;
+        border-radius: 4px;
+        & p{
+          padding: 0 29px 27px;
+          font-size: 20px;
+          line-height: 26px;
+          color:#313131;
+          min-height: 110px;
+        }
+      }
+    }
+    &-col{
+      position: relative;
+      &-number{
+        z-index: 10;
+        position: absolute;
+        top:10px;
+        left:20px;
+        & span{
+          font:21px "ProximaNova Semibold";
+          color:#fff;
+          opacity: .95;
+        }
+      }
+    }
+  }
+}

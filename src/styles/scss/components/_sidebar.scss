@@ -1,0 +1,40 @@
+.sidebar{
+  &-img{
+    background-size:cover;
+    width: 100%;
+  }
+  &-submit{
+    padding: 32px 0 40px;
+    &-text{
+      font:20px/32px "ProximaNova Regular";
+      color:#2b2928;
+      & span{
+        font-size: 28px;
+      }
+    }
+  }
+  &-content{
+    position: relative;
+  }
+  &-text{
+    position: absolute;
+    width: 100%;
+    top:48px;
+    &-1{
+      text-transform: uppercase;
+      font:20px/28px "ProximaNova Semibold";
+      color:#00bcac;
+      margin-bottom: 19px;
+    }
+    &-2{
+      font:32px/36px "ProximaNova Light";
+      color:#fff;
+      margin-bottom: 10px;
+    }
+    &-3{
+      font-size: 19px;
+      color:#00bcac;
+      line-height: 35px;
+    }
+  }
+}

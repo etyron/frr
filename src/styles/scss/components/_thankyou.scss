@@ -1,0 +1,31 @@
+.thankyou{
+  background:url("../../img/thankyou/norka.png") no-repeat 20% bottom,url("../../img/thankyou/section-bg.png") no-repeat;
+  min-height:calc(100vh - 214px);
+  height: auto;
+  background-size:40% auto,cover ;
+  &-content{
+    min-height:calc(100vh - 214px);
+  }
+  &-title{
+    position: relative;
+    font: 80px/82px "ProximaNova Thin";
+    color: #fff;
+    padding-left: 91px;
+    margin-bottom: 14px;
+    &::before{
+      position: absolute;
+      content:'';
+      background: #00bcac;
+      width:64px;
+      height:2px;
+      left: 0;
+      top:40px;
+      display: block;
+    }
+  }
+  &-text{
+    font:28px/32px "ProximaNova Thin";
+    color:#fff;
+    margin-bottom: 53px;
+  }
+}

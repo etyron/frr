@@ -1,0 +1,74 @@
+.books{
+  &-col{
+    padding: 38px 0 59px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    &-right{
+      padding-left:35px;
+    }
+  }
+  &-nav{
+    align-items: flex-start;
+  }
+  &-img{
+    max-width: 310px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  &-title{
+    position: relative;
+    font:50px "ProximaNova Light";
+    color:#2b2928;
+    margin-bottom: 40px;
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      background: url("../../img/secton-title-after.png") no-repeat;
+      width: 36px;
+      height: 3px;
+      bottom:-17px;
+    }
+    &-after{
+      display: block;
+      font-size: 24px;
+      line-height: 25px;
+      color:#2b2928;
+      margin-bottom: 25px;
+    }
+  }
+  &-text{
+    &-block{
+      margin-bottom: 32px;
+      & p{
+        color:#6e6e6e;
+        margin-bottom: 26px;
+        &:last-child{
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+  &-structure{
+    &-title{
+      font-size: 24px;
+      line-height: 25px;
+      color:#2b2928;
+      margin-bottom: 16px;
+      &-main{
+        font-size: 28px;
+        color:#2b2928;
+        margin-bottom: 22px;
+      }
+    }
+    &-pages{
+      color:#6e6e6e;
+    }
+    &-nav{
+      margin-bottom: 40px;
+      &:last-of-type{
+        margin-bottom: 0;
+      }
+    }
+  }
+}

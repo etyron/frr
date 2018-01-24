@@ -1,0 +1,72 @@
+.press-center{
+  &-title{
+    margin-top:-23px;
+  }
+  &-list{
+    padding: 0 30px;
+    & li{
+      padding: 0 4px;
+      margin-bottom: 7px;
+      border-radius: 2px;
+    }
+    &-img{
+      width: 100%;
+      background-size: cover;
+      max-height: 329px;
+      height: 100%;
+    }
+  }
+  &-contact{
+    background: url("../../img/press-center/section-contact-bg.png") no-repeat;
+    background-size: cover;
+    padding: 50px 0 87px;
+    &-title{
+      font:16px/17px "ProximaNova Light";
+      color:#f3f3f3;
+    }
+    &-tel{
+      font:35px/69px "ProximaNova Light";
+      color:#fff;
+    }
+    &-email{
+      font:28px "ProximaNova Light";
+      color: #fff;
+    }
+  }
+  &-title{
+    &-after{
+      color:#6e6e6e;
+    }
+  }
+  &-social{
+    & li{
+      cursor: pointer;
+      margin-right: 10px;
+      position: relative;
+      width:61px;
+      height:61px;
+      box-sizing: border-box;
+      border:1px solid #6d6d6d;
+      border-radius: 50%;
+      background: transparent;
+      &:last-child{
+        margin-right: 0;
+      }
+      &:hover{
+        border-color: #00bcac;
+        background: #00bcac;
+        & .fa{
+          color:#fff;
+        }
+      }
+      & .fa{
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: #00bcac;
+        font-size: 22px;
+      }
+    }
+  }
+}

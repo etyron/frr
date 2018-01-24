@@ -1,0 +1,180 @@
+.section{
+  &-welcome{
+    &-title{
+      font:50px/67px "ProximaNova Thin";
+      color:#fff;
+      margin-bottom: 30px;
+      &-otzivi{
+        font:70px/82px "ProximaNova Thin";
+        color:#fff;
+        margin-bottom: 8px;
+      }
+      &-services{
+        font:70px/82px "ProximaNova Thin";
+        color:#fff;
+        margin-bottom:25px ;
+      }
+      &-schedule{
+        font:70px/82px "ProximaNova Thin";
+        color:#fff;
+        margin-bottom: 10px;
+      }
+      &-about{
+        margin-top:60px;
+        font: 77px/82px "ProximaNova Thin";
+        color:#fff;
+        margin-bottom: 8px;
+        &-after{
+          display: block;
+          font:28px/32px "ProximaNova Light";
+          color: #fff;
+          margin-bottom: 23px;
+        }
+      }
+      &-news{
+        font:50px/75px "ProximaNova Light";
+        color:#fff;
+        text-transform: capitalize;
+      }
+      &-blog{
+        font:70px/65px "ProximaNova Thin";
+        color:#fff;
+        margin-bottom: 20px;
+      }
+      &-press{
+        font:70px/65px "ProximaNova Thin";
+        color:#fff;
+        margin-bottom: 20px;
+      }
+      &-events{
+        font:70px/65px "ProximaNova Thin";
+        color:#fff;
+        margin-bottom: 32px;
+      }
+    }
+    &-training{
+      padding: 110px 0 80px;
+      background-image:url("../../img/training/welcome-section-bg.png");
+      background-size: cover;
+    }
+    &-books{
+      background-image:url("../../img/books/welcome-section-bg.png");
+      background-size: cover;
+      padding: 135px 0 100px;
+    }
+    &-otzivi{
+      background-image:url("../../img/otzivi/welcome-section-bg.png");
+      background-size: cover;
+      padding: 103px 0 140px;
+    }
+    &-uslugi{
+      background-image:url("../../img/uslugi/welcome-section-bg.png");
+      background-size: cover;
+      padding: 94px 0 80px;
+    }
+    &-services{
+      background-image:url("../../img/uslugi/welcome-section-bg_1.png");
+      background-size: cover;
+      padding: 105px 0 120px;
+    }
+    &-schedule{
+      background-image:url("../../img/schedule/welcome-section-bg.png");
+      background-size: cover;
+      padding: 110px 0 139px;
+    }
+    &-about{
+      padding: 0;
+      background: url("../../img/about/dmitriy-norka.png")no-repeat 75% bottom,linear-gradient(to right, #2d2c2b,#2c2a29);
+      height: auto;
+      background-size:30% auto,cover ;
+    }
+    &-press-center{
+      background-image:url("../../img/press-center/welcome-section-bg.png");
+      background-size: cover;
+      padding: 161px 0 166px;
+    }
+    &-news{
+      background-image:url("../../img/news/section-welcome-bg.png");
+      background-size: cover;
+      padding: 108px 0;
+    }
+    &-blog{
+      background-image:url("../../img/blog/welcome-section-bg-1.png");
+      background-size: cover;
+      padding: 142px 0 183px;
+    }
+    &-blog2{
+      background-image:url("../../img/blog/welcome-section-bg-2.png");
+      background-size: cover;
+      padding: 108px 0 105px;
+    }
+    &-events{
+      background-image: url("../../img/events/section-welcome-bg.png");
+      background-size: cover;
+      padding: 47px 0 58px;
+    }
+    &-text{
+      display: block;
+      padding-left: 30px;
+      position: relative;
+      font:25px "ProximaNova Light";
+      color:#fff;
+      margin-bottom: 76px;
+      &-training{
+        &::before{
+          position: absolute;
+          content:'\f252 ';
+          font-family: FontAwesome;
+          margin-left: 14px;
+          font-size: 20px;
+          color:#04a99b;
+          left:-14px;
+          transform: translateY(25%);
+        }
+      }
+      &-blog{
+        font:20px/25px "ProximaNova Light";
+        color:#fff;
+      }
+      &-press{
+        font:20px/25px "ProximaNova Light";
+        color:#fff;
+      }
+      &-services{
+        display: block;
+        font:28px/32px "ProximaNova Thin";
+        color:#fff;
+        margin-bottom: 57px;
+      }
+      &-events{
+        font:20px/25px "ProximaNova Light";
+        color:#fff;
+        margin-bottom: 54px;
+      }
+      &-otzivi{
+        display: block;
+        position: relative;
+        font:25px "ProximaNova Light";
+        color:#fff;
+        margin-bottom: 63px;
+      }
+      &-uslugi{
+        display: block;
+        font:25px/26px "ProximaNova Light";
+        color:#fff;
+        margin-top:-5px;
+        margin-bottom: 64px;
+      }
+      &-schedule{
+        display: block;
+        font:28px/32px "ProximaNova Thin";
+        color:#fff;
+        margin-bottom: 55px;
+      }
+      &-about{
+        color:#fff;
+        margin-bottom: 65px;
+      }
+    }
+  }
+}

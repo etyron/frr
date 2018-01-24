@@ -1,0 +1,267 @@
+.events{
+  &-welcome{
+    &-list{
+      & > li{
+        margin-right: 44px;
+        &:last-child{
+          margin-bottom:0;
+          margin-right: 0;
+        }
+      }
+      &::before{
+        content: '|';
+        background: #393939;
+        width: 1px;
+        height: 70px;
+        margin-right: 26px;
+        display: block;
+      }
+    }
+    &-date{
+      color:#fff;
+      & li{
+        margin-right: 22px;
+        &:last-child{
+          margin-right: 0;
+        }
+      }
+    }
+    &-place{
+      position: relative;
+      font:16px/20px "ProximaNova Light";
+      color: #fff;
+      text-align: left;
+      padding-left: 54px;
+      &::before{
+        position: absolute;
+        content: '';
+        background: url("../../img/events/placeholde.png")no-repeat;
+        width: 32px;
+        height: 45px;
+        left: 0;
+      }
+    }
+    &-day{
+      font:56px "ProximaNova Light";
+      color: #00bcac;
+    }
+  }
+  &-section{
+    &-title{
+      position: relative;
+      font:50px/97px "ProximaNova Light";
+      color:#2b2928;
+      margin-bottom:36px;
+      &::after{
+        position: absolute;
+        content: '';
+        width: 36px;
+        height: 3px;
+        display: block;
+        background: url("../../img/secton-title-after.png") no-repeat;
+      }
+    }
+  }
+  &-wrap{
+    border-radius: 2px;
+    overflow: hidden;
+    max-height: 515px;
+    & img{
+      width: 100%;
+      background-size: cover;
+    }
+  }
+  &-title{
+    font-size:28px;
+    line-height: 37px;
+    color:#2b2928;
+  }
+  &-text{
+    color:#6e6e6e;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 28px;
+    & p{
+      margin-bottom: 26px;
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+    & > li{
+      margin-bottom: 20px;
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+    &-index{
+      position: absolute;
+      font-size: 28px;
+      color:#2b2928;
+      top:50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      &-number{
+        display: block;
+        width: 51px;
+        height: 51px;
+        border: 1px solid #00bcac;
+        border-radius: 4px;
+        position: relative;
+        margin-right: 20px;
+      }
+    }
+  }
+  &-amply{
+    margin-bottom: 27px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d7d7d7;
+    &-list{
+      margin-bottom: 27px;
+      border-radius: 4px;
+      overflow: hidden;
+      & > li{
+        padding: 26px 28px;
+        &:nth-child(2n+1){
+          border-right: 1px solid #ebebeb;
+        }
+        &:nth-child(1){
+          border-bottom: 1px solid #ebebeb;
+        }
+        &:nth-child(2){
+          border-bottom: 1px solid #ebebeb;
+        }
+      }
+    }
+    &-first{
+      font:16px/37px "ProximaNova Semibold";
+      color:#2b2928;
+      margin-right: 20px;
+      &-date{
+        &::before{
+          content: '\f073 ';
+          font-family: FontAwesome;
+          color:#00bcac;
+          margin-right:12px;
+        }
+      }
+      &-event{
+        &::before{
+          content: '\f0e5';
+          font-family: FontAwesome;
+          color:#00bcac;
+          margin-right:12px;
+        }
+      }
+      &-price{
+        &::before{
+          content: '\f158 ';
+          font-family: FontAwesome;
+          color:#00bcac;
+          margin-right:12px;
+        }
+      }
+      &-web{
+        &::before{
+          content: 'W';
+          font-family: FontAwesome;
+          color:#00bcac;
+          margin-right:12px;
+        }
+      }
+    }
+    &-second{
+      font:16px/37px "ProximaNova Regular";
+      color:#6e6e6e;
+    }
+    &-place{
+      &-list{
+        margin-bottom: 21px;
+        position: relative;
+        padding-left: 53px;
+        & > li{
+          margin-bottom: 18px;
+          &:last-child{
+            margin-bottom: 0;
+          }
+        }
+        &-title{
+          font-size: 20px;
+          line-height: 37px;
+          color:#2b2928;
+        }
+        &-text{
+          color:#6e6e6e;
+          margin-bottom: -4px;
+        }
+        &::before{
+          position: absolute;
+          content: '';
+          background: url("../../img/events/placeholde.png")no-repeat;
+          width: 32px;
+          height: 45px;
+          left: 0;
+        }
+      }
+    }
+  }
+  &-pencil{
+    background: #fff;
+    & img{
+      background-size: cover;
+      width: 100%;
+    }
+  }
+  &-schedule{
+    &-list{
+      & > li{
+        position: relative;
+        margin-bottom: 35px;
+        &::before{
+          position: absolute;
+          content: '';
+          width:5px;
+          height:100px;
+          background:#e8e8e8;
+          left:12px;
+        }
+        &:last-child{
+          margin-bottom: 0;
+          &::before{
+            content: '';
+            display: none;
+          }
+        }
+      }
+      &-time{
+        font-size: 20px;
+        line-height: 37px;
+        color:#2b2928;
+        margin-right:34px;
+      }
+      &-action{
+        color:#6e6e6e;
+        line-height: 37px;
+      }
+    }
+    &-circle{
+      margin-right: 36px;
+      position: relative;
+      width: 30px;
+      height: 30px;
+      background: #e8e8e8;
+      border-radius: 50%;
+      border: none;
+      &::before{
+        position: absolute;
+        content: '';
+        width:11px;
+        height:11px;
+        border-radius: 50%;
+        border: none;
+        background:#00bcac;
+        top:50%;
+        left: 50%;
+        transform:translate(-50%,-50%)
+      }
+    }
+  }
+}

@@ -1,0 +1,167 @@
+.comments{
+  &-list {
+    &-nav{
+      padding-bottom: 40px;
+      margin-bottom: 60px;
+      &-otzivi {
+        padding-bottom: 20px;
+        margin-bottom: 50px;
+      }
+      &-news{
+        padding-bottom: 24px;
+        margin-bottom: 40px;
+        border-bottom:1px solid #e1e1e1;
+        &:last-of-type{
+          margin-bottom: 0;
+        }
+      }
+    }
+    &-grey{
+      margin-top:50px;
+    }
+  }
+  &-photo{
+    &-wrap{
+      position: relative;
+      max-width:116px;
+      width: 100%;
+      max-height:116px;
+      background-size: cover;
+      background: #c0c0c0;
+      border-radius: 50%;
+      &-otzivi{
+        max-width: 153px;
+        max-height: 153px;
+        width: 100%;
+        background-size: cover;
+        border:10px solid #fff;
+      }
+      &-news{
+        max-width: 100px;
+        max-height: 100px;
+        width: 100%;
+        background-size: cover;
+        border:6px solid #fff;
+      }
+      & img{
+        width: 100%;
+      }
+    }
+    &-quote{
+      position: absolute;
+      width: 44px;
+      height: 44px;
+      background: #00bcac;
+      border-radius: 50%;
+      top:-5px;
+      &-news{
+        position: absolute;
+        width:30px;
+        height: 30px;
+        background: #00bcac;
+        border-radius: 50%;
+        top:-5px;
+        & img{
+          width: 16px;
+          height: 13px;
+          margin-left: 50%;
+          margin-top:50%;
+          transform: translate(-50%,-50%);
+        }
+      }
+      & img{
+        width: 16px;
+        height: 13px;
+        margin-left: 50%;
+        margin-top:50%;
+        transform: translate(-50%,-50%);
+      }
+    }
+  }
+  &-name{
+    font-size: 25px;
+    color:#2b2928;
+    margin-bottom: 15px;
+  }
+  &-city{
+    font-size: 20px;
+    color:#00bcac;
+    margin-bottom: 18px;
+  }
+  &-text{
+    font:16px/25px "ProximaNova Regular";
+    color:#6e6e6e;
+  }
+  &-more{
+    & span{
+      text-transform: uppercase;
+      margin-left: 14px;
+      font:14px "ProximaNova Semibold";
+      color:#2b2928;
+    }
+  }
+  &-video{
+    & li{
+      margin-bottom: 50px;
+      border-radius: 5px;
+      &:last-child{
+        margin-bottom: 5px;
+      }
+    }
+    &-img{
+      position: relative;
+      z-index: 54;
+      padding-top:8px;
+      padding-right: 4px;
+      margin-bottom: 25px;
+    }
+    &-play{
+      position: absolute;
+      top:50%;
+      left: 50%;
+      transform: translate(-50%,-75%);
+      z-index: 55;
+      width: 100px;
+      height: 100px;
+      background: #fff;
+      border-radius: 50%;
+      border: none;
+      & img{
+        padding-top: 8px;
+        padding-left: 4px;
+      }
+    }
+    &-time{
+      position: absolute;
+      bottom: 17px;
+      right:26px;
+      z-index: 90;
+      color: #fff;
+      display: inline-block;
+      border-radius: 4px;
+      padding: 0 5px;
+      background: #404040;
+      opacity: .8;
+    }
+    &-wrap{
+      position: relative;
+    }
+  }
+  &-info{
+    padding-left: 10px;
+    &-author{
+      font-size: 25px;
+      line-height: 36px;
+      color:#2b2928;
+    }
+    &-city{
+      color:#00bcac;
+      font-size: 16px;
+      margin-top:-5px;
+    }
+  }
+}
+
+.comments-list_2{
+  display: none;
+}
